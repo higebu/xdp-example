@@ -2,9 +2,7 @@
 
 XDP example with [cilium/ebpf](https://github.com/cilium/ebpf)
 
-# Setup
-
-## Install dependencies
+# Install dependencies
 
 ```
 sudo apt install clang llvm libelf-dev build-essential linux-headers-amd64 linux-libc-dev libbpf-dev
