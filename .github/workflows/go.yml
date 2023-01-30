@@ -19,7 +19,7 @@ jobs:
         go-version: 1.19
 
     - name: Install dependencies
-      run: sudo apt-get install -y libbpf-dev
+      run: sudo apt-get install -y llvm libbpf-dev
 
     - name: Generate
       run: go generate
