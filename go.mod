@@ -2,7 +2,7 @@ module xdp-example
 
 go 1.24.0
 
-toolchain go1.24.12
+toolchain go1.25.7
 
 require (
 	github.com/cilium/ebpf v0.20.0
